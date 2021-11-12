@@ -7,6 +7,8 @@
     <title>Graphic Design</title>
     <!-- Bootstrap Link  -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- box-icons cdn -->
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
     <!-- CSS Link  -->
     <link rel="stylesheet" href="style.css">
  
@@ -14,155 +16,166 @@
 </head>
 <body>
   <section class="display p-5">
-    <div class="container">
-       <div class="row">
-        <div class="border p-5 col-4 cart1">
-            <div>
-                <h3 class="text-white">Service We Provide</h3>
+       <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="mt-4 card" style="background-color: rgb(23, 23, 23); color: rgb(255, 255, 255);">
+              <div class="card" style="background-color: rgba(23, 23, 23); color: rgb(255, 255, 255);">
+                <div class="card-body">
+                  <div class="card-title">
+                     <h4>Service We Provide</h4>
+                    </div>
+                  <div class="list-group bg-color fs">
+                    <div class="items">1. Logo Design</div>
+                    <div  class="items">2. Photo editing & Background removing</div>
+                    <div  class="items">3. Video Editing</div>
+                    <div class="items">4. Web App UX/UI Design</div>
+                    <div  class="items">5. Advertisement Design</div>
+                    <div  class="items">6. Apparel Graphics Design</div>
+                  </div>
+                </div>
+              </div>
             </div>
-            <ul class="list-group list text-white">
-                <li class="list-group-item">1. Logo Design
-                </li>
-                <li class="list-group-item">2. Photo editing & Background removing</li>
-                <li class="list-group-item">3. Web App UX/UI Design</li>
-                <li class="list-group-item">4. Advertisement Design</li>
-                <li class="list-group-item">5. Video Editing</li>
-                <li class="list-group-item">6. Apparel Graphics Design</li>
-              </ul>
-        </div>
-        <div class="border p-5 col-8 cart2">
-            <div class="">
-                <h3 class="text-white">Why you come with us</h3>
+          </div>
+          <div class="col">
+            <div class="mt-4 card" style="background-color: rgb(23, 23, 23); color: rgb(255, 255, 255);">
+              <div class="card" style="background-color: rgb(23, 23, 23); color: rgb(255, 255, 255);">
+                <div class="card-body"><div class="card-title">
+                    <h4>Why  you come with us..?</h4>
+                </div>
+                <div class="list-group bg-color fs">
+                  <div  class="items">1. Fastest delivery </div>
+                <div  class="items">2. Reasonable price</div>
+                <div  class="items">3. 24 hours online service</div>
+                <div  class="items">4. Transparent Pricing models</div>
+                <div  class="items">5. Our service scope</div>
+                <div  class="items">6. Our customers review</div>
+                <div  class="items">7. Free SEO service for the first month.</div>
+                <div  class="items">8. Customization services</div>
+              </div>
             </div>
-            <ul class="list-group list me-3">
-                <li class="list-group-item">1. Fastest delivery
-                </li>
-                <li class="list-group-item">2. Reasonable price</li>
-                <li class="list-group-item">3. 24 hours online service</li>
-                <li class="list-group-item">4. Transparent Pricing models</li>
-                <li class="list-group-item">5. Our service scope</li>
-                <li class="list-group-item">6. Our customers review</li>
-                <li class="list-group-item">7. Free SEO service for the first month.</li>
-                <li class="list-group-item">8. Customization services</li>
-              </ul>
+          </div>
         </div>
-       </div>
-       </div>
-  </section>
-      <div>
-        <h2 class="text-center text-white border p-3 text">
-            Let’s Talk about your Project
-          </h2>
       </div>
-      <br>
-     <div class="main">
-        <div  class="box text-center p-3">
-            <span class="font mt-5">
-                3
-            </span>
-        
-           <h6>
-               On Going
-             </h6>
+    </div>
+  </section>
+          <div class="container talk-about ma-t">
+            <section class="border bg-color length">
+                <div class="head-part">
+                    <h2>Let's Talk About Your Project</h2>
+                    <div class="social-btns">
+                            <a href="#" class="t-social"><i class="bx bxl-facebook"></i></a>
+                            <a href="#" class="t-social"><i class="bx bxl-instagram"></i></a>
+                            <a href="#" class="t-social"><i class="bx bxl-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="content-container p-3">
+                    <div class="content-ast box p-3">
+                        <div>
+                                <h3>3</h3>
+                              <p>On Going</p>
+                            </div>
+                    </div>
+                    
+                    <div class="content-ast box p-3">
+                        <div>
+                            <h3>0</h3>
+                            <p>Hand Over</p>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
         </div>
-        <div  class="box text-center p-3">
-            <span class="font mt-5">
-                0
-            </span>
-        
-           <h6>
-               Hand Over
-             </h6>
+        <div class="container price-model">
+            <section>
+                <div class="head-part">
+                    <h2>Pricing Model</h2>
+                </div>
+                <div class="content-container">
+                    <div class="content-ast">
+                        <h3 id="facebook">Graphic Design</h3>
+                        <div>
+                              <div class="t-header">
+                                  <span>Services</span><span>USD</span>
+                              </div>
+                              <div class="t-content">
+                                    <div class="t-row">
+                                        <span>Logo Design</span>
+                                         <span>5-150</span>
+                                    </div>
+                                    <div class="t-row">
+                                        <span>Web App UX/UI Design</span>
+                                         <span>7-30/page</span>
+                                    </div>
+                                    <div class="t-row">
+                                        <span>Photo editing & background removing</span>
+                                         <span>2-50</span>
+                                    </div>
+                                    <div class="t-row">
+                                        <span>Video Editing</span>
+                                         <span>Negotiable</span>
+                                    </div>
+                                    
+                              </div>
+                        </div>
+                    </div>
+                    <div class="content-ast" id="smm">
+                        <h3>Apparel Graphics Design</h3>
+                        <div>
+                              <div class="t-header">
+                                  <span>Services</span><span>USD</span>
+                              </div>
+                              <div class="t-content">
+                                    <div class="t-row">
+                                        <span>T-Shirt Design</span>
+                                         <span>10-90</span>
+                                    </div>
+                                    <div class="t-row">
+                                        <span>Clothing</span>
+                                         <span>10-90</span>
+                                    </div>
+                                    <div class="t-row">
+                                        <span>Embroidery</span>
+                                         <span>7-100</span>
+                                    </div>
+                              </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                    <div>
+                        <div class="content-ast tc p-5" id="smm">
+                            <h3>Advertising Design</h3>
+                            <div>
+                                  <div class="t-header">
+                                      <span>Services</span><span>USD</span>
+                                  </div>
+                                  <div class="t-content">
+                                        <div class="t-row">
+                                            <span>Poster</span>
+                                             <span>10-90</span>
+                                        </div>
+                                        <div class="t-row">
+                                            <span>Visiting Card</span>
+                                             <span>5-20</span>
+                                        </div>
+                                        <div class="t-row">
+                                            <span>Sliding Add</span>
+                                             <span>5-20</span>
+                                        </div>
+                                        <div class="t-row">
+                                            <span>Video Add(Graphics)</span>
+                                             <span>50-90/Minute</span>
+                                        </div>
+                                  </div>
+                            </div>
+                        </div>
+                    </div>
+            </section>
+            
         </div>
-     </div>
-     <br>
-     <br>
-     <section id="bgc">
-        <div class="text-center text-white">
-            <h1>Pricing Model</h1>
-            <h2>Graphic Design</h2>
-        </div>
-        <br>
-        <div>
-           <table class="table text-white length">
-               <thead>
-                 <tr>
-                   <th scope="col"></th>
-                   <th scope="col">USD</th>
-                   <th scope="col">BDT</th>
-                 </tr>
-               </thead>
-               <tbody>
-                 <tr>
-                   <td>Logo Design</td>
-                   <td>5-150</td>
-                   <td>-</td>
-                 </tr>
-                 <tr>
-                   <td>Photo editing & background removing</td>
-                   <td>2-50</td>
-                   <td>-</td>
-                 </tr>
-                 <tr>
-                   <td>Web App UX/UI Design</td>
-                   <td>7-30/page</td>
-                   <td>-</td>
-                 </tr>
-                 <tr>
-                   <td>Advertising Design</td>
-                   <td></td>
-                   <td>-</td>
-                 </tr>
-                 <tr>
-                   <td>Poster</td>
-                   <td>10-90</td>
-                   <td>-</td>
-                 </tr>
-                 <tr>
-                   <td>Visiting Card</td>
-                   <td>5-20</td>
-                   <td>-</td>
-                 </tr>
-                 <tr>
-                   <td>Sliding Add</td>
-                   <td>5-200</td>
-                   <td>-</td>
-                 </tr>
-                 <tr>
-                   <td>Video Add(Graphics)</td>
-                   <td>50-90/Minute</td>
-                   <td>-</td>
-                 </tr>
-                 <tr>
-                   <td>Video Editing</td>
-                   <td>Negotiable</td>
-                   <td>-</td>
-                 </tr>
-                 <tr>
-                   <td>Apparel Graphics Design</td>
-                   <td></td>
-                   <td>-</td>
-                 </tr>
-                 <tr>
-                   <td>T-Shirt Design</td>
-                   <td>10-90</td>
-                   <td>-</td>
-                 </tr>
-                 <tr>
-                   <td>Clothing</td>
-                   <td>10-90</td>
-                   <td>-</td>
-                 </tr>
-                 <tr>
-                   <td>Embroidery</td>
-                   <td>7-100</td>
-                   <td>-</td>
-                 </tr>
-               </tbody>
-             </table>
-        </div>
-     </section>
-     <br>
      <hr class="text-white">
+     <br>
 </body>
 </html>
